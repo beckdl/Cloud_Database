@@ -1,38 +1,20 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
 This is my attempt at making a cloud database that interacts with Google Firebase.
-{Provide a description of the software that you wrote and how it integrates with a Cloud Database. Describe how to use your program.}
+The program opens up a CLI interface that initiates a connection to a Cloud Database for a database of a to-do list. You can pick different options using numbers. If you do not already have the key you will have to create a database for yourself and get a Service key.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/kvUkA0YiBPM)
 
 # Cloud Database
-
-{Describe the cloud database you are using.}
-
-{Describe the structure of the database that you created.}
+I am using Google Firebase as the Cloud Database
+It is a simple database that writes to and takes from a to-do list
 
 # Development Environment
-
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
-
+Developed in VSCode
+Language used was Python with the Firebase Admin SDK
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Firestore Tutorial](https://firebase.google.com/docs/firestore)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Implementation of access without using key.

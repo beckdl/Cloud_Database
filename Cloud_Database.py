@@ -3,7 +3,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 
 # Use a service account.
-cred = credentials.Certificate('D:\Key\documentorganizer-ee4cc-2a8f378aed71.json')
+cred = credentials.Certificate('')# Path\to\key.json
 
 app = firebase_admin.initialize_app(cred)
 
@@ -36,7 +36,6 @@ while(choice != "5"):
         print(f"\n{title} has been added to your to-do list.\n")
     # edit a to-do
     elif choice == "3": 
-        print("choice 3")
         edittitle = input("What is the title of the to-do you would like to edit?\n")
         editdescription = input("What is the new description of the to-do?\n")
         doc_ref = db.collection(place).document("start")
@@ -45,7 +44,6 @@ while(choice != "5"):
         print(f"\n{edittitle} has been edited in your to-do list.\n")
     # delete a to-do
     elif choice == "4":
-        print("choice 4")
         deltitle = input("What is the title of the to-do you would like to delete?\n")
         doc_ref = db.collection(place).document("start")
         doc_ref.update({deltitle: firestore.DELETE_FIELD})
