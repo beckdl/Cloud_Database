@@ -1,7 +1,7 @@
 # Overview
 
 {Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
+This is my attempt at making a cloud database that interacts with Google Firebase.
 {Provide a description of the software that you wrote and how it integrates with a Cloud Database. Describe how to use your program.}
 
 {Describe your purpose for writing this software.}
